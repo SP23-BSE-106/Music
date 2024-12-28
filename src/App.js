@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./components/Home";
-import CareersComponent from "./components/CareersComponent"; 
+import CareersComponent from "./components/CareersComponent"; // Importing CareersComponent
+ 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Home /> 
-      <CareersComponent /> 
+      
     </div>
   );
 }

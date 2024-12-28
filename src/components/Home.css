@@ -117,3 +117,71 @@ body {
     font-size: 1.2rem;
     color: whitesmoke;
 }  
+
+/* Dialog Box */
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog-content h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.dialog-content {
+  padding: 20px; /* Add padding for better spacing */
+  background-color: white;
+  border-radius: 8px;
+  max-width: 400px; /* Ensure the width is not too wide */
+  text-align: center; /* Center-align the text */
+}
+
+.dialog-content p {
+  margin: 10px 0; /* Add space between lines */
+  font-size: 16px;
+  color: #333;
+}
+
+.input-field {
+  margin: 15px 0; /* Added space between input fields */
+  padding: 10px;
+  width: 100%; /* Ensures the input field spans the container */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Prevents padding from breaking layout */
+}
+
+.dialog-buttons {
+  display: flex;
+  justify-content: space-between; /* Creates space between buttons */
+  margin-top: 20px;
+}
+
+.close-btn,
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  flex: 0; /* Buttons will stretch evenly */
+  margin: 0 5px; /* Adds spacing between buttons */
+}
+
+.close-btn {
+  background-color: #ff4081;
+  color: white;
+}
+
+.submit-btn {
+  background-color: #1976d2;
+  color: white;
+}
