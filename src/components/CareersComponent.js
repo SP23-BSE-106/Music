@@ -10,6 +10,7 @@ function CareersComponent() {
 
   return (
     <div className="careers-container">
+      <p>CareersComponent is rendering!</p>  {/* Temporary log to verify rendering */}
       <h1>To Start Listening, Just Pick A Payment Method.</h1>
       <h2>Multiple Payment Method</h2>
       <p>You can choose the payment method that has been provided and this really supports your payment, then you can pay anytime.</p>

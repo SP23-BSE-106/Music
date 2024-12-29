@@ -6,15 +6,17 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
   }
   
-  h1 {
+h1 {
     font-size: 28px;
     margin-bottom: 20px;
-  }
+    color: #000; /* Change color to black for visibility */
+}
   
-  h2 {
+h2 {
     font-size: 20px;
     margin-bottom: 15px;
-  }
+    color: #000; /* Change color to black for visibility */
+}
   
   p {
     color: #666; /* Gray text color */

@@ -5,21 +5,13 @@ import CareersComponent from "./components/CareersComponent"; // Importing Caree
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/careersComponent" element={<CareersComponent />} /> 
-//       </Routes>
-//     </Router>
-//   );
-// }
-
   return (
-    <div className="App">
-      <Home /> 
-      
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/careers" element={<CareersComponent />} /> 
+      </Routes>
+    </Router>
   );
 }
 
