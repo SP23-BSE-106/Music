@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:red; /* Light Blue Background */
+  color: grey;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: darkblue; /* Blue Color */
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+/* Playlist */
+.playlist {
+  margin: 20px 0;
+}
+
+.playlist h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.playlist ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.playlist-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 4px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+}
+
+.playlist-item:hover {
+  background-color: whitesmoke;
+}
+
+.playlist-item.active {
+  background-color: white;
+  border-color: skyblue;
+}
+
+.playlist-song-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Current Song */
+.current-song {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.current-song h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.song-image-large {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Audio Player */
+.audio-player {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 1500px;
+  margin: 20px auto;
+  border: 6px solid white;
+}
+
+.player-controls button {
+  background: none;
+  color: white;
+  font-size: 25px;
+  margin: 10px 20px;
+  cursor: pointer;
+  
+}
+
+.player-controls button:hover {
+  color: wheat;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: darkblue; /* Blue Color */
+  color: whitesmoke;
+  font-size: 14px;
+  
+}

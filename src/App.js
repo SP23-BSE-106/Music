@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./components/Home";
-import CareersComponent from "./components/CareersComponent"; // Importing CareersComponent
+import Play from "./components/play";
  
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/careers" element={<CareersComponent />} /> 
+        <Route path="/play" element={<Play />} /> 
       </Routes>
     </Router>
   );

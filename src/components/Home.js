@@ -13,7 +13,7 @@ const Home = () => {
   const handleSubmit = () => {
     if (username === defaultUsername && password === defaultPassword) {
       // Redirect to Careers page
-      navigate("/careers"); // Change to use navigate
+      navigate("/play"); // Change to use navigate
     } else {
       alert("Invalid username or password.");
     }
