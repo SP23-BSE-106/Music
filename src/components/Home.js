@@ -1,43 +1,27 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Change to useNavigate
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
-  const defaultUsername = "munazza"; 
-  const defaultPassword = "pass123"; 
+  const defaultUsername = "admin";
+  const defaultPassword = "123";
 
   const handleSubmit = () => {
     if (username === defaultUsername && password === defaultPassword) {
-      // Redirect to Careers page
-      navigate("/play"); // Change to use navigate
+      navigate("/play");
     } else {
       alert("Invalid username or password.");
     }
-    // Reset state after handling submission
     setUsername("");
     setPassword("");
   };
 
   return (
     <div className="home">
-      <header className="navbar">
-        <div className="logo">Music Mash</div>
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Careers</li>
-            <li>Pricing</li>
-            <li>Support</li>
-          </ul>
-        </nav>
-        <button className="download-btn">
-          Download App
-        </button>
-      </header>
 
       <main className="main-content">
         <div className="text-content">
@@ -47,8 +31,7 @@ const Home = () => {
             <span className="groove-text">Groove</span>
           </h1>
           <p className="para">
-            Choose and listen from thousands of our already made playlists and
-            never worry about changing your song while you work.
+            Choose and listen from thousands of our already made playlists and never worry about changing your song while you work.
           </p>
           <div className="input-box">
             <input

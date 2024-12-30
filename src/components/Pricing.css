@@ -1,0 +1,102 @@
+.subscription-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.subscription-form form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #5c3c92;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn,
+.cancel-btn {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #e91e63;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #9b4dca; 
+  color: white;
+  margin-left: 10px;
+}
+
+/* Pricing Plan Styles */
+.pricing-container {
+  padding: 20px;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pricing-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-box {
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e91e63; 
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5c3c92;
+}
+
+.subscribe-btn {
+  background-color: #e91e63; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.subscribe-btn:hover {
+  background-color: #c2185b; 
+}

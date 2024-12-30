@@ -1,9 +1,9 @@
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color:red; /* Light Blue Background */
+  background-color:red; 
   color: grey;
   border: 10px solid black;
   border-radius: 10px;
@@ -15,9 +15,8 @@ body {
   min-height: 100vh;
 }
 
-/* Header */
 .header {
-  background-color: darkblue; /* Blue Color */
+  background-color: darkblue; 
   color: whitesmoke;
   padding: 20px;
   text-align: center;
@@ -28,13 +27,13 @@ body {
   margin: 0;
 }
 
-/* Main Content */
+
 main {
   flex: 1;
   padding: 20px;
 }
 
-/* Search Bar */
+
 .search-bar {
   margin-bottom: 20px;
   text-align: center;
@@ -52,7 +51,7 @@ main {
 }
 
 
-/* Playlist */
+
 .playlist {
   margin: 20px 0;
 }
@@ -97,7 +96,7 @@ main {
   margin-right: 10px;
 }
 
-/* Current Song */
+
 .current-song {
   text-align: center;
   margin-bottom: 20px;
@@ -115,7 +114,6 @@ main {
   margin-bottom: 10px;
 }
 
-/* Audio Player */
 .audio-player {
   display: flex;
   flex-direction: row;
@@ -143,11 +141,11 @@ main {
   color: wheat;
 }
 
-/* Footer */
+
 .footer {
   text-align: center;
   padding: 10px;
-  background-color: darkblue; /* Blue Color */
+  background-color: darkblue;
   color: whitesmoke;
   font-size: 14px;
   

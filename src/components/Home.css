@@ -1,4 +1,4 @@
-/* Global Styles for the Home Component */
+
 body {
     margin: 0;
     font-family: "Arial", sans-serif;
@@ -100,7 +100,6 @@ body {
     cursor: pointer;
   }
   
-  /* Image Section */
   .image-content {
     max-width: 45%;
   }
@@ -118,7 +117,6 @@ body {
     color: whitesmoke;
 }  
 
-/* Dialog Box */
 .dialog {
   position: fixed;
   top: 0;
@@ -137,31 +135,31 @@ body {
 }
 
 .dialog-content {
-  padding: 20px; /* Add padding for better spacing */
+  padding: 20px;
   background-color: white;
   border-radius: 8px;
-  max-width: 400px; /* Ensure the width is not too wide */
-  text-align: center; /* Center-align the text */
+  max-width: 400px;
+  text-align: center; 
 }
 
 .dialog-content p {
-  margin: 10px 0; /* Add space between lines */
+  margin: 10px 0; 
   font-size: 16px;
   color: #333;
 }
 
 .input-field {
-  margin: 15px 0; /* Added space between input fields */
+  margin: 15px 0; 
   padding: 10px;
-  width: 100%; /* Ensures the input field spans the container */
-  border-radius: 8px; /* Rounded corners for a modern look */
+  width: 100%; 
+  border-radius: 8px;
   border: 1px solid #ccc;
-  box-sizing: border-box; /* Prevents padding from breaking layout */
+  box-sizing: border-box; 
 }
 
 .dialog-buttons {
   display: flex;
-  justify-content: space-between; /* Creates space between buttons */
+  justify-content: space-between; 
   margin-top: 20px;
 }
 
@@ -172,9 +170,8 @@ body {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  flex: 0; /* Buttons will stretch evenly */
-  margin: 0 5px; /* Adds spacing between buttons */
-}
+  flex: 0;
+  margin: 0 5px; 
 
 .close-btn {
   background-color: #ff4081;
@@ -184,4 +181,5 @@ body {
 .submit-btn {
   background-color: #1976d2;
   color: white;
+}
 }

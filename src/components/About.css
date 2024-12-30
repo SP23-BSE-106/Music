@@ -1,0 +1,57 @@
+.about-container {
+  font-family: Arial, sans-serif;
+}
+
+.about-header h1 {
+  text-align: center;
+  color: white;
+}
+
+.about-content {
+  padding: 20px;
+}
+
+.mission, .team {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.mission h2, .team h2 {
+  color: #6a1b9a;
+}
+
+.mission p, .team p {
+  color: #333;
+}
+
+.poll {
+  margin-top: 40px;
+}
+
+.poll-options label {
+  display: block;
+  margin: 10px 0;
+}
+
+.vote-btn {
+  background-color: #8e24aa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.vote-btn:hover {
+  background-color: #6a1b9a;
+}
+
+.poll-result {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 5px;
+}
